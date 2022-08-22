@@ -1,0 +1,83 @@
+.background_image{
+    background-image: url('../images/Promotique-hero-marquee-001_ES.webp');
+    width:100vw; 
+    height: 500px; 
+    background-size: cover;
+}
+.nav-bar-left{
+    width: 300px;
+    position: absolute;
+    top: 48px;
+    color: black;
+}
+a {
+    color: black;
+    text-decoration-line: none;
+}
+a:hover{
+    color: black;
+    text-decoration-line: underline;
+}
+.shirts{
+    width: 320px;
+    height: 300px;
+    margin: 5px 10px;
+    padding: 0px 10px;
+}
+
+.card{
+    border: none;
+    border-radius: 0 0 0 0;
+    flex-grow: 0;
+
+}
+.card img{
+    width:300px;
+    margin: 0 10px;
+}
+.stardard {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+.stardard-heading h1{
+    font-weight: 900;
+}
+.stardard-link {
+    width: 150px;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px 15px;
+
+}
+.stardard-link a{
+    color: white;
+    justify-content: center;
+}
+
+@media screen and (max-width: 750px) {
+    .card {
+       width: 100%;
+    }
+    .nav-bar-left{
+        display: none;
+    }
+    .stardard {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        background-color: rgb(202, 200, 200);
+        text-align: center;
+        padding: 20px;
+    }
+    .stardard-link {
+        color: white;
+        justify-content: center;
+        margin-left: 150px;
+    }
+ }
